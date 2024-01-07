@@ -10,7 +10,7 @@ HOME = os.environ["HOME"]
 STOP_ON_FAIL = True
 USER = os.environ["USER"]
 OS_PACKAGES = ["git", "tmux", "curl", "zsh", "rsync", "python3-neovim",
-               "python3-venv", "python3-pylsp", "build-essential"]
+               "python3-venv", "python3-pylsp", "build-essential", "clangd"]
 
 
 def run_command(command, cwd=None, fatal=True, output=True):
